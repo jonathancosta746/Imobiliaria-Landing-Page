@@ -9,7 +9,10 @@
     <!--=============== SWIPER CSS =============-->
     <link rel="stylesheet" href="./swiper.css">
     <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>    
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />  
 </head>
 <body>
     
@@ -144,9 +147,109 @@
             </div>
         </section>
 
-        <!--==================== POPULAR ====================-->
-        <section class="section" id="popular">
-            
+
+
+
+
+
+
+
+        <!--==================== CASAS ====================-->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Melhor Escolha</span>
+                <h2 class="section__title">
+                    Casas populares<span>.</span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/images/popular1.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>R$</span>250.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Apartamento 3 Qts
+                                </h3>
+                                <p class="popular__description">
+                                    Aguas Claras - Quadra 205,
+                                    Torre 2, Apto 305
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/images/popular2.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>R$</span>320.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Casa 5 Suites
+                                </h3>
+                                <p class="popular__description">
+                                    Aguas Claras - Quadra 105,
+                                    Torre52, Apto 1003
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/images/popular3.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>R$</span>1.250.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Casa 2 Quartos
+                                </h3>
+                                <p class="popular__description">
+                                    Guará,
+                                    Quadra 3
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/images/popular4.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>R$</span>150.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Casa 3 Quartos
+                                </h3>
+                                <p class="popular__description">
+                                    Vicente Pires, Rua 1
+                                    Ch 5, Cond. Por do Sol
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/images/popular5.jpg" alt="" class="popular__img">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>R$</span>750.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Lote 1000m²
+                                </h3>
+                                <p class="popular__description">
+                                    ParWay, Qd 65
+                                    Cond. Solar
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>  
+                </div>
+            </div>
         </section>
 
         <!--==================== VALUE ====================-->
@@ -177,8 +280,9 @@
     <!--=============== SCROLLREVEAL ===============-->
     <script src=""></script>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <!--=============== MAIN JS ===============-->
     <script src="./assets/js/main.js"></script>
