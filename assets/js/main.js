@@ -34,7 +34,7 @@ accordionItems.forEach((item) => {
 
         toggleItem(item)
 
-        if(openItem && openItem !== item){
+        if(openItem !== item){
             toggleItem(openItem)
         }
     })
@@ -45,7 +45,7 @@ const toggleItem = (item) =>{
 
     if(item.classList.contains('accordion-open')){
         accordionContent.removeAttribute('style')
-        item,classList.remove('accordion-open')
+        item.classList.remove('accordion-open')
     }else{
         accordionContent.style.height = accordionContent.scrollHeight + 'px'
     item.classList.add('accordion-open')
