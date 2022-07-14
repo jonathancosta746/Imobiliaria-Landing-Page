@@ -424,7 +424,42 @@ button {
 
 
 /*=============== VALUE ===============*/
+.value__container{
+  row-gap: 3rem;
+}
 
+.values__images{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.value__orbe{
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
+
+.value__img{
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
+
+.value__description{
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.value__accordion{
+
+}
 
 /*Rotate icon and add shadows*/
 
