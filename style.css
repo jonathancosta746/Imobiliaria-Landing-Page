@@ -627,7 +627,39 @@ button {
 
 
 /*=============== SUBSCRIBE ===============*/
+.subscribe{
+  padding: 2.5rem 0;
+}
 
+.subscribe__container{
+  background-color: var(--first-color);
+  padding: 3rem 2rem;
+  border-radius: 1.25rem;
+  border: 6px solid var(--first-color-light);
+  text-align: center;
+}
+
+.subscribe__title{
+  font-size: var(--h2-font-size);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.subscribe__description{
+  color: hsl(228, 90%, 92%);
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.subscribe__button{
+  border: 2px solid #fff;
+  background: var(--first-color-light);
+  font-size: var(--small-font-size);
+}
+
+.subscribe__button:hover{
+  background-color: var(--first-color);
+}
 
 /*=============== FOOTER ===============*/
 
