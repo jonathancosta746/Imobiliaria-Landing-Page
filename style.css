@@ -661,7 +661,86 @@ button {
   background-color: var(--first-color);
 }
 
+
+
 /*=============== FOOTER ===============*/
+.footer__container{
+  row-gap: 2.5rem;
+}
+
+.footer__logo{
+  color: var(--first-color);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  margin-bottom: .75rem;
+}
+
+.footer__logo i{
+  font-size: 1.25rem;
+}
+
+.footer__description,
+.footer__link{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer__content{
+  gap: 2.5rem 4rem;
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.footer__links{
+  display: grid;
+  
+  row-gap: .5rem
+}
+
+.footer__link{
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover{
+  color: var(--title-color)
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 1rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__social-link:hover{
+  color: var(--title-color);
+}
+
+.footer__info{
+  text-align: center;
+  padding-bottom: 6rem;
+  margin-top: 5.5rem;
+}
+
+
+
 
 
 /*=============== SCROLL BAR ===============*/
