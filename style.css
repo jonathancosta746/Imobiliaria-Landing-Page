@@ -373,7 +373,7 @@ button {
 
 .logos__img img{
   height: 60px;
-  opacity: .2;
+  opacity: .3;
   transition: .7s;
 }
 
@@ -765,14 +765,91 @@ button {
 }
 
 /*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: var(--container-color);
+  box-shadow: 0 8px 12px hsla(228, 66%, 45%, .1);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  color: var(--title-color);
+  font-size: 1.25rem;
+  z-index: var(--z-tooltip);
+  transition: .3s;
+}
 
+.scrollup:hover{
+  transform: translateY(-.25rem);
+  color: var(--first-color);
+}
 
 /* Show Scroll Up*/
+.show-scroll{
+  bottom: 8rem;
+}
 
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 350px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
+  .section{
+    padding: 3.5rem 0 1rem;
+  }
+
+  .home{
+    padding-bottom: 0;
+  }
+
+  .contact__card{
+    grid-template-columns: repeat(1, 180px);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .nav__menu{
+    padding: 1.3rem 1.5rem;
+  }
+
+  .home__value{
+    column-gap: 1rem;
+  }
+
+  .home__img,
+  .value__img,
+  .contact__img{
+    width: 220px;
+    height: 280px;
+  }
+
+  .home__orbe,
+  .value__orbe,
+  .contact__orbe{
+    width: 240px;
+    height: 264px;
+  }
+
+  .logos__container{
+    gap: 2rem 1rem;
+  }
+
+  .popular__card{
+    width: 230px;
+    padding: .5rem .5rem .75rem;
+  }
+
+  .subscribe__container{
+    padding: 2rem 1rem;
+  }
+
+}
 
 /* For medium devices */
 
