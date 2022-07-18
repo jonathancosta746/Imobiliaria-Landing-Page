@@ -539,6 +539,8 @@ button {
   transform: rotate(-180deg);
 }
 
+
+
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 2rem;
@@ -746,11 +748,21 @@ button {
 }
 
 
-
-
-
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(228, 8%, 95%);
+}
 
+::-webkit-scrollbar-thumb{
+  background-color: hsl(228, 8%, 64%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(228, 8%, 54%);
+}
 
 /*=============== SCROLL UP ===============*/
 
