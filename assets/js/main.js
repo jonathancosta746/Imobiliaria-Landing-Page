@@ -83,7 +83,4 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
-/*=============== DARK LIGHT THEME ===============*/ 
-
-
 /*=============== SCROLL REVEAL ANIMATION ===============*/
