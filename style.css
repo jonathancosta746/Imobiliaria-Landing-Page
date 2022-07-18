@@ -422,7 +422,7 @@ button {
   row-gap: 3rem;
 }
 
-.values__images{
+.value__images{
   position: relative;
   display: flex;
   justify-content: center;
@@ -1120,5 +1120,11 @@ button {
 @media screen and (min-width: 2048px){
   body{
     zoom: 1.5;
+  }
+}
+
+@media screen and (min-width: 3848px){
+  body{
+    zoom: 2;
   }
 }

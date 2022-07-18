@@ -75,12 +75,32 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive)
 
 
+
 /*=============== SHOW SCROLL UP ===============*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     //Quando o scroll for maior que 350 no viewport, adicionar a class do CSS
     if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
+
 window.addEventListener('scroll', scrollUp)
 
+
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true para quando o usuario retornar a sessão exibir a animação novamente
+})
+
+sr.reveal(`.home__title, .popular__container, .subscribe__container, .footer__container`)
+sr.reveal(`.home__description, .footer__info`, {delay:500})
+sr.reveal(`.home__search`, {delay:600})
+sr.reveal(`.home__value`, {delay:700})
+sr.reveal(`.home__images`, {delay:800, origin:'bottom'})
+sr.reveal(`.logos__img`, {interval:100})
+sr.reveal(`.value__images, .contact__content`, {origin:'left'})
+sr.reveal(`.value__content, .contact__images`, {origin:'right'})
