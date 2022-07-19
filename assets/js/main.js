@@ -13,7 +13,7 @@ var swiper = new Swiper(".popular__container", {
 
     spaceBetween: 32,
     grabCursor: true,
-    centeredSlides: true,
+    centeredSlides: false,
     slidesPerView: 'auto',
     loop: true,
 
@@ -21,6 +21,20 @@ var swiper = new Swiper(".popular__container", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
         },
+
+         //Responsive breakpoints
+
+    breakpoints: {
+        // when windows width is >= 600
+        600: {
+            slidesPerView: 2
+        },
+    
+        // when windows width is >= 1024
+        1024: {
+            slidesPerView: 3
+        },
+    }
 });
 
 /*=============== VALUE ACCORDION ===============*/
