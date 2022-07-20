@@ -17,10 +17,10 @@ var swiper = new Swiper(".popular__container", {
     slidesPerView: 'auto',
     loop: true,
 
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-        },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
 
          //Responsive breakpoints
 

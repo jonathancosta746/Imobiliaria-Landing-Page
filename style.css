@@ -406,6 +406,7 @@ button {
 
 .popular__description{
   font-size: var(--small-font-size);
+  margin-bottom: 2rem;
 }
 
 .popular__card:hover{
