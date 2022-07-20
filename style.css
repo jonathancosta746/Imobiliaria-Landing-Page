@@ -658,8 +658,12 @@ button {
 
 /*=============== FOOTER ===============*/
 .footer__container{
-  row-gap: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  padding: 1rem;
 }
+
 
 .footer__logo{
   color: var(--first-color);
@@ -681,15 +685,6 @@ button {
   font-weight: var(--font-medium);
 }
 
-.footer__content{
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.footer__content{
-  gap: 2.5rem 4rem;
-}
 
 .footer__title{
   font-size: var(--h3-font-size);
@@ -866,9 +861,6 @@ button {
     grid-template-columns: repeat(2, 192px);
   }
 
-  .footer__content{
-    grid-template-columns: repeat(3, max-content);
-  }
 }
 
 
@@ -921,10 +913,6 @@ button {
     padding: 3rem 13rem;
   }
 
-  .footer__container{
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between;
-  }
 }
 
 /* For large devices */
