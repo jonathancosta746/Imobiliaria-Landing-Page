@@ -429,21 +429,52 @@
             </div>    
         </section>
 
-        <!--==================== SUBSCRIBE ====================-->
-        <section class="subscribe section">
-            <div class="subscribe__container container">
-                <h1 class="subscribe__title">
-                    Inscreva-se
-                </h1>
-                <p class="subscribe__description">
-                    Inscreva-se e receba ofertas imperdiveis. Encontre seu novo lar
-                </p>
-                <a href="" class="button subscribe__button">
-                    Inscreva-se
-                </a>
+        <!--==================== APPOINTMENT ====================-->
+
+    <section class="appointment section">
+        <div class="appointment-container container">
+            <div class="info">
+                <h2>Envie uma mensagem<span>.</span></h2>
+                <p>Mande uma mensagem que entraremos em contato o mais breve possivel.</p>
             </div>
-        </section>
-    </main>
+    
+            <form action="https://formspree.io/f/xvolerzj" method="POST" class="form__appointment">
+
+                <div class="form__group">
+                    <label for="name">Nome</label>
+                    <input type="text" placeholder="Digite seu nome" name="Nome do Paciente" id="name" required><!--name é o nome do item que irá contar no email-->
+                </div>
+
+                <div class="form__group">
+                    <label for="phone">Telefone</label>
+                    <input type="number" placeholder="Digite seu telefone" name="Numero de Telefone" id="number" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="return">Selecione a forma de retorno</label>
+                    <select name="Return" id="return" required>
+                        <option value="ligação-manha" required>Ligação durante manhã</option>
+                        <option value="ligação-tarde">Ligação durante tarde</option>
+                        <option value="ligação-noite">Ligação durante noite</option>
+                        <option value="whatsApp">WhatsApp</option>
+                        <option value="email">E-mail</option>
+                    </select>
+                </div>
+
+
+                <div class="form__group">
+                    <label for="message">Mensagem</label>
+                    <textarea name="Mensagem" id="message" rows="6" placeholder="Adicione uma mensagem" required></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensagem" class="btn-primary">
+            </form>
+        </div>
+    </section>
+
+
+
+
+
 
     <!--==================== FOOTER ====================-->
     <footer class="footer section">

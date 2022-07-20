@@ -110,7 +110,7 @@ const sr = ScrollReveal({
     // reset: true para quando o usuario retornar a sessão exibir a animação novamente
 })
 
-sr.reveal(`.home__title, .popular__container, .subscribe__container, .footer__container`)
+sr.reveal(`.home__title, .popular__container, .appointment-container, .footer__container`)
 sr.reveal(`.home__description, .footer__info`, {delay:500})
 sr.reveal(`.home__search`, {delay:600})
 sr.reveal(`.home__value`, {delay:700})

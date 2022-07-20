@@ -620,40 +620,44 @@ button {
 }
 
 
-/*=============== SUBSCRIBE ===============*/
-.subscribe{
-  padding: 2.5rem 0;
+/*=============== APPOINTMENT ===============*/
+
+.container-appointment {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  gap: 6%;}
+
+.form__appointment {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 2rem;
 }
 
-.subscribe__container{
-  background-color: var(--first-color);
-  padding: 3rem 2rem;
-  border-radius: 1.25rem;
-  border: 6px solid var(--first-color-light);
-  text-align: center;
+.info span{
+    color: var(--second-color);
+  }
+
+
+.form__group{
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+    font-weight: 600;
 }
 
-.subscribe__title{
-  font-size: var(--h2-font-size);
-  color: #fff;
-  margin-bottom: 1rem;
-}
+input, 
+textarea, 
+select{
+    background: var(--first-color-lighten);
+    padding: 0.85rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 0.4rem;
+    resize: none;
+    appearance: none;
+}          
 
-.subscribe__description{
-  color: hsl(228, 90%, 92%);
-  font-size: var(--small-font-size);
-  margin-bottom: 2rem;
-}
-
-.subscribe__button{
-  border: 2px solid #fff;
-  background: var(--first-color-light);
-  font-size: var(--small-font-size);
-}
-
-.subscribe__button:hover{
-  background-color: var(--first-color);
-}
 
 
 
@@ -774,7 +778,7 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (min-width: 400px){
+@media screen and (max-width: 400px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -807,7 +811,7 @@ button {
   }
 }
 
-@media screen and (min-width: 320px){ 
+@media screen and (max-width: 320px){ 
   .nav__menu{
     padding: 1.3rem 1.5rem;
   }
