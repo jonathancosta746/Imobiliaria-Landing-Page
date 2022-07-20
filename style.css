@@ -774,7 +774,7 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -782,6 +782,11 @@ button {
 
   .section{
     padding: 3.5rem 0 1rem;
+  }
+
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home{
@@ -802,9 +807,14 @@ button {
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){ 
   .nav__menu{
     padding: 1.3rem 1.5rem;
+  }
+
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home__value{
@@ -814,7 +824,6 @@ button {
   .home__search{
     max-width: 250px;
   }
-
 
   .home__img,
   .value__img,
@@ -850,6 +859,11 @@ button {
     width: 342px;
   }
 
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .home__search{
     width: 422px;
   }
@@ -869,6 +883,11 @@ button {
   .home__container{
     grid-template-columns: repeat(2, 1fr);
     padding-top: 2rem;
+  }
+
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home__orbe,
