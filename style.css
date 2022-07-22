@@ -656,6 +656,7 @@ select{
     border-radius: 0.4rem;
     resize: none;
     appearance: none;
+    border: none;
 }          
 
 
