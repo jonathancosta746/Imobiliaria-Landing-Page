@@ -1,14 +1,14 @@
-@import "./assets/partials/_general.css";
-@import "./assets/partials/_nav.css";
-@import "./assets/partials/_home.css";
-@import "./assets/partials/_button.css";
-@import "./assets/partials/_logos.css";
-@import "./assets/partials/_popular.css";
-@import "./assets/partials/_value.css";
-@import "./assets/partials/_contact.css";
-@import "./assets/partials/_appointment.css";
-@import "./assets/partials/_footer.css";
-@import "./assets/partials/_scroll.css";
+@import "./partials/general.css";
+@import "./partials/nav.css";
+@import "./partials/home.css";
+@import "./partials/button.css";
+@import "./partials/logos.css";
+@import "./partials/popular.css";
+@import "./partials/value.css";
+@import "./partials/contact.css";
+@import "./partials/appointment.css";
+@import "./partials/footer.css";
+@import "./partials/scroll.css";
 
 
 /*=============== BREAKPOINTS ===============*/
