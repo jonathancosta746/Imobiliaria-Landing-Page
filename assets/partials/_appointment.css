@@ -1,0 +1,38 @@
+/*=============== APPOINTMENT ===============*/
+
+.container-appointment {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 6%;}
+  
+  .form__appointment {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+  
+  .info span{
+      color: var(--second-color);
+    }
+  
+  
+  .form__group{
+      font-size: 0.85rem;
+      margin-bottom: 0.4rem;
+      display: inline-block;
+      font-weight: 600;
+  }
+  
+  input, 
+  textarea, 
+  select{
+      background: var(--first-color-lighten);
+      padding: 0.85rem 1rem;
+      display: block;
+      width: 100%;
+      border-radius: 0.4rem;
+      resize: none;
+      appearance: none;
+      border: none;
+  }          
