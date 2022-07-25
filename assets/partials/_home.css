@@ -24,29 +24,6 @@
     margin-bottom: 2rem;
 }
 
-.home__search{
-  background-color: var(--body-color);
-  padding: .35rem .35rem .35rem .75rem;
-  display: flex;
-  align-items: center;
-  border-radius: .75rem;
-  border: 3px solid var(--text-color-light);
-  margin-bottom: 2rem;
-  font-size: 1.25rem;
-  color: var(--first-color);
-}
-
-.home__search-input{
-  width: 90%;
-  background-color: var(--body-color);
-  color: var(--text-color);
-  margin: 0 .5rem;
-}
-
-.home__search-input::placeholder{
-  color: var(--text-color-light);
-}
-
 .home__value{
   display: flex;
   column-gap: 2.5rem;
