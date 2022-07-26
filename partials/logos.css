@@ -16,3 +16,45 @@
   .logos__img img:hover{
     opacity: .9;
   }
+
+  /*=============== BREAKPOINTS ===============*/
+  /* For small devices */
+
+@media screen and (max-width: 320px){ 
+  .logos__container{
+    gap: 2rem 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 578px) {
+  .logos__img img{
+    height: 60px;
+    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 767px){
+
+  .logos__img{
+    padding: 1.5rem;
+  }
+
+  .logos__img img{
+    height: 35px;
+    padding-left: 35px;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1020px) {
+  
+.logos__container{
+  grid-template-columns: repeat(4, max-content);
+  justify-content: center;
+  }
+
+.logos__img img{
+  height: 50px;
+  }
+}

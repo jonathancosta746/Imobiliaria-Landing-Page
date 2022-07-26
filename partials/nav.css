@@ -34,40 +34,40 @@
 }
 
 @media screen and (max-width: 1024px){
-    .nav__menu{
-        position: fixed;
-        bottom: 2rem;
-        background-color: var(--container-color);
-        box-shadow: 0 8px 24px hsla(228, 66%, 45%, .15);
-        width: 90%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        padding: 1.30rem 3rem;
-        border-radius: 1.25rem;
-        transition: .4s;
-    }
+  .nav__menu{
+      position: fixed;
+      bottom: 2rem;
+      background-color: var(--container-color);
+      box-shadow: 0 8px 24px hsla(228, 66%, 45%, .15);
+      width: 90%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      padding: 1.30rem 3rem;
+      border-radius: 1.25rem;
+      transition: .4s;
+  }
 
-    .nav__list {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;  
-    }
+  .nav__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;  
+  }
 
-    .nav__link {
-        color: var(--text-color);
-        display: flex;
-        padding: .5rem;
-        border-radius: 50%;
-    }
+  .nav__link {
+      color: var(--text-color);
+      display: flex;
+      padding: .5rem;
+      border-radius: 50%;
+  }
 
-    .nav__link i {
-        font-size: 1.25rem;
-    }
+  .nav__link i {
+      font-size: 1.25rem;
+  }
 
-    .nav__link span{
-        display: none;
-    }
+  .nav__link span{
+      display: none;
+  }
 }
 
 /* Change background header */
@@ -80,3 +80,68 @@
   color: var(--first-color);
 }
 
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 400px){  
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 320px){ 
+  .nav__menu{
+    padding: 1.3rem 1.5rem;
+  }
+
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* For medium devices */
+@media screen and (max-width: 1019px) {
+  .nav__menu{
+    width: 342px;
+  }
+
+  .nav__logo{
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
+
+
+/* For large devices */
+@media screen and (min-width: 1020px) {
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .nav__menu{
+    width: initial;
+    margin-left: auto;
+  }
+
+  .nav__list{
+    display: flex;
+    column-gap: 3rem;
+  }
+
+  .nav__link{
+    color: var(--text-color-light);
+  }
+
+  .nav__link i{
+    display: none;
+  }
+
+  .nav__button{
+    display: inline-block;
+    padding: 7px 16px;
+    margin-left: 20px;
+  }
+}  

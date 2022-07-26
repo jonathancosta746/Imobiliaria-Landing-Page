@@ -128,3 +128,66 @@ button {
 .main {
   overflow: hidden; /* For the animations ScrollReveal*/
 }
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 400px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section{
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+
+
+/* For medium devices */
+@media screen and (min-width: 578px) {
+  .container__card{
+    grid-template-columns: repeat(2, 192px);
+  }
+}
+
+
+
+/* For large devices */
+@media screen and (min-width: 1020px) {
+  .section{
+    padding: 7.5rem 0 1rem;
+  }
+
+  .section__title{
+    font-size: 2.25rem;
+  }
+
+  .section__subtitle{
+    font-size: var(--normal-font-size);
+  }
+}
+
+@media screen and (min-width: 1040px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+/* For 2K & 4K resolutions */
+
+@media screen and (min-width: 2048px){
+  body{
+    zoom: 1.5;
+  }
+}
+
+@media screen and (min-width: 3848px){
+  body{
+    zoom: 2;
+  }
+}
