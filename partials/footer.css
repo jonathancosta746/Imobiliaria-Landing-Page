@@ -2,10 +2,10 @@
 .footer__container{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-self: center;
   padding: 1rem;
 }
-  
   
 .footer__logo{
   color: var(--first-color);
@@ -35,7 +35,6 @@
 
 .footer__links{
   display: grid;
-  
   row-gap: .5rem
 }
 
@@ -54,7 +53,7 @@
 }
 
 .footer__social-link{
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   color: var(--text-color);
   transition: .3s;
 }
@@ -65,15 +64,31 @@
 
 .footer__info{
   text-align: center;
-  padding-bottom: 6rem;
+  font-size: 12px;
+  padding-bottom: 8rem;
   margin-top: 5.5rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For large devices */
+/* For small devices */
+@media screen and (max-width: 1020px) {
+  .footer__logo{
+    display: flex;
+    justify-content: center;
+  }
 
-@media screen and (min-width: 1020px) {
-  .footer__container{
-    grid-template-columns: repeat(3, max-content);
+  .footer__content{
+    padding: 0rem 3rem 0rem 3rem;
+    justify-content: center;
+  }
+
+  .footer__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__description{
+    text-align: center;
+    padding-bottom: 3rem;
   }
 }
