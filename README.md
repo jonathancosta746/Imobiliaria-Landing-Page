@@ -2,13 +2,13 @@
 
 🇧🇷
 ## Como visualizar o projeto?
-Disponível do link https://jonathancosta746.github.io/Imobiliaria-Landing-Page/#
+Disponível do link https://jonathancosta746.github.io/Imobiliaria-Landing-Page/
 
 ## Como funciona o projeto?
 Landing Page criada para uma corretores de imóveis ou imobiliárias, onde há integração com a biblioteca SwiperJS para efeitos de slides na sessão onde é exibido alguns imóveis da carteira do corretor, e integração com a plataforma FormSpree fazendo com que seja possível os clientes enviarem um formulário de contato.
 
 ## Tecnologias Usadas
-HTML, JavaScript, SwiperJS, FormSpree, ScrollReveal
+HTML, CSS, JavaScript, SwiperJS, FormSpree, ScrollReveal
 
 
 ##
