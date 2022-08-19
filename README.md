@@ -1,6 +1,6 @@
 # Landing-Page para corretores de imóveis ou imobiliárias 
 
-🇧🇷
+
 ## Como visualizar o projeto?
 Disponível do link https://jonathancosta746.github.io/Imobiliaria-Landing-Page/
 
